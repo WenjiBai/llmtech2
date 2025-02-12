@@ -30,3 +30,19 @@ sentiment-analysis-system/
 │   └── sentiment_analysis.ipynb  # Jupyter/Colab Notebook for data preprocessing and fine-tuning
 ├── README.md                   # This file
 └── .gitignore
+
+
+
+## Installation
+
+### Backend
+
+1. **Prerequisites:**  
+   - Python 3.7+  
+   - [FastAPI](https://fastapi.tiangolo.com/), [uvicorn](https://www.uvicorn.org/), [transformers](https://github.com/huggingface/transformers), [pyngrok](https://github.com/alexdlaird/pyngrok) (if running on Colab)
+
+2. **Installation Steps:**  
+   Navigate to the `backend/` directory and install dependencies:
+   ```bash
+   cd backend
+   pip install -r requirements.txt
