@@ -42,7 +42,7 @@ sentiment-analysis-system/
    - [FastAPI](https://fastapi.tiangolo.com/), [uvicorn](https://www.uvicorn.org/), [transformers](https://github.com/huggingface/transformers), [pyngrok](https://github.com/alexdlaird/pyngrok) (if running on Colab)
 
 2. **Installation Steps:**  
-   Navigate to the `backend/` directory and install dependencies:
+   Install dependencies:
    ```bash
    cd backend
    pip install -r requirements.txt
