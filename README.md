@@ -50,12 +50,14 @@ sentiment-analysis-system/
 
 
  ## How to Run
-	•	Start the API server: uvicorn app:app --host 0.0.0.0 --port 8000
-	•	(If running on Colab, use ngrok to expose the server.)
-	2.	Frontend:
-	•	Navigate to the frontend/ directory.
-	•	Install dependencies: npm install
-	•	Start the React app: npm start
-	3.	Notebook:
-	•	Open notebook/tech week3.ipynb in Jupyter/Colab and run the cells as instructed.
+Start the API server: uvicorn app:app --host 0.0.0.0 --port 8000
+(If running on Colab, use ngrok to expose the server.)
+
+2. Frontend:
+Navigate to the frontend/ directory.
+Install dependencies: npm install
+Start the React app: npm start
+	
+3. Notebook:
+   Open notebook/tech week3.ipynb in Jupyter/Colab and run the cells as instructed.
 
