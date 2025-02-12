@@ -12,3 +12,21 @@ This project implements a full sentiment analysis system featuring:
 - Detailed documentation on how to install dependencies, run the project, and use the API.
 
 ## Directory Structure
+sentiment-analysis-system/
+├── backend/
+│   ├── app.py                  # FastAPI backend code
+│   ├── requirements.txt        # Python dependencies for backend
+│   └── README_backend.md       # (Optional) Backend specific instructions
+├── frontend/
+│   ├── package.json            # React project configuration
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js              # Main React application
+│   │   ├── SentimentAnalyzer.js# React component for sentiment analysis
+│   │   └── …                 # Other React files
+│   └── README_frontend.md      # (Optional) Frontend specific instructions
+├── notebook/
+│   └── sentiment_analysis.ipynb  # Jupyter/Colab Notebook for data preprocessing and fine-tuning
+├── README.md                   # This file
+└── .gitignore
